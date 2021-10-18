@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.3.0"
+  },
+    "scripts": {
+      "test": "jest"
+    }
+}
