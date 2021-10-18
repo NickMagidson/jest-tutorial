@@ -1,6 +1,5 @@
-const { test } = require('picomatch');
 const capitalize = require('./capitalize');
 
-test('capitalizes the first character', () => {
+test('Capitalize test 1', () => {
     expect(capitalize('string')).toBe('String');
-})
+});

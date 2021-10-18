@@ -1,4 +1,4 @@
 function capitalize(string) {
-    return string.chartAt(0).toUpperCase() + str.slice(1);
+    return string[0].toUpperCase() + string.slice(1);
 }
 module.exports = capitalize;
