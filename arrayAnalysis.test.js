@@ -1,8 +1,8 @@
 const arrayAnalysis = require('./arrayAnalysis');
 
 test("Array test 1", () => {
-    expect(arrayAnalysis([1, 8, 7, 4, 3, 6])).toEqual({
-        average: 4,
+    expect(arrayAnalysis([1, 8, 7, 5, 3, 6])).toEqual({
+        average: 5,
         min: 1,
         max: 8,
         length: 6,
